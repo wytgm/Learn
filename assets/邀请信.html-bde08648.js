@@ -1,0 +1,1 @@
+import{_ as t,o as a,c,d as e,e as _}from"./app-631283dc.js";const o={},r=e("h1",{id:"邀请信",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#邀请信","aria-hidden":"true"},"#"),_(" 邀请信")],-1),s=[r];function n(d,i){return a(),c("div",null,s)}const l=t(o,[["render",n],["__file","邀请信.html.vue"]]);export{l as default};

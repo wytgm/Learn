@@ -1,0 +1,1 @@
+import{_ as a,o as t,c,d as e,e as o}from"./app-631283dc.js";const r={},s=e("h1",{id:"maya",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#maya","aria-hidden":"true"},"#"),o(" maya")],-1),n=[s];function _(d,i){return t(),c("div",null,n)}const l=a(r,[["render",_],["__file","Maya.html.vue"]]);export{l as default};

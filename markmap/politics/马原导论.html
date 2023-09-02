@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.4/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.7.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.14.4"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.14.4/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(() => {
+  const {
+    markmap,
+    mm
+  } = window;
+  const toolbar = new markmap.Toolbar();
+  toolbar.attach(mm);
+  const el = toolbar.render();
+  el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+  document.body.append(el);
+})</script><script>((getMarkmap, getOptions, root, jsonOptions) => {
+        const markmap = getMarkmap();
+        window.mm = markmap.Markmap.create('svg#mindmap', (getOptions || markmap.deriveOptions)(jsonOptions), root);
+      })(() => window.markmap,null,{"type":"heading","depth":0,"payload":{"lines":[0,1]},"content":"马原导论","children":[{"type":"heading","depth":1,"payload":{"lines":[2,3]},"content":"马原基本原理"},{"type":"heading","depth":1,"payload":{"lines":[4,5]},"content":"创立","children":[{"type":"list_item","depth":2,"payload":{"lines":[5,6]},"content":"产生的社会根源","children":[{"type":"list_item","depth":3,"payload":{"lines":[6,7]},"content":"资本主义经济的发展为马克思主义的产生提供了经济、社会历史条件"}]},{"type":"list_item","depth":2,"payload":{"lines":[7,8]},"content":"阶级基础","children":[{"type":"list_item","depth":3,"payload":{"lines":[8,9]},"content":"无产阶级"},{"type":"list_item","depth":3,"payload":{"lines":[9,10]},"content":"法英德三大工人运动标志着无产阶级作为政治力量登上舞台"}]},{"type":"list_item","depth":2,"payload":{"lines":[10,11]},"content":"思想渊源","children":[{"type":"list_item","depth":3,"payload":{"lines":[11,12]},"content":"德国古典哲学、英国古典政治经济学、英法空想社会主义----直接理论来源"},{"type":"list_item","depth":3,"payload":{"lines":[12,13]},"content":"细胞学说、能量守恒与转化定律、生物进化论----自然科学前提"}]}]},{"type":"heading","depth":1,"payload":{"lines":[14,15]},"content":"⭐著作整理（重点）","children":[{"type":"list_item","depth":2,"payload":{"lines":[16,17]},"content":"《德法年鉴》（马恩）：完成了从唯心主义像唯物主义，从革命民主主义向共产主义的转变，为创立马克思主义奠定了思想前提"},{"type":"list_item","depth":2,"payload":{"lines":[17,18]},"content":"《德意志意识形态》(马恩)：首次系统阐述历史唯物主义的基本观点"},{"type":"list_item","depth":2,"payload":{"lines":[18,19]},"content":"《共产党宣言》(马恩)：<strong>标志马克思主义公开问世</strong>:传播最广、最具国际性、国际工人协会(第一国际)：第一个无产阶级的国际组织"},{"type":"list_item","depth":2,"payload":{"lines":[19,20]},"content":"《资本论》(马)：系统阐述剩余价值学说，被誉为“工人阶级的圣经”"},{"type":"list_item","depth":2,"payload":{"lines":[20,21]},"content":"《反杜林论》(恩)：全面阐述马克思主义理论体系"},{"type":"list_item","depth":2,"payload":{"lines":[21,22]},"content":"《神圣家族》(马恩)：马恩的首部合著"},{"type":"list_item","depth":2,"payload":{"lines":[22,23]},"content":"《关于费尔巴哈的提纲》(马)：首次提出科学的实践观"},{"type":"list_item","depth":2,"payload":{"lines":[23,24]},"content":"《法兰西内战》(马) ：通过对巴黎工人斗争以及巴黎公社原则、经验、教训和实质的全面阐释，提出了一系列关于无产阶级国家政权建设的思想。"},{"type":"list_item","depth":2,"payload":{"lines":[24,25]},"content":"《哥达纲领批判》(马)：进一步丰富了科学社会主义学说"},{"type":"list_item","depth":2,"payload":{"lines":[25,26]},"content":"共产主义者同盟：全世界第一个无产阶级政党"},{"type":"list_item","depth":2,"payload":{"lines":[26,27]},"content":"巴黎公社：无产阶级夺取政权的第一次伟大尝试"}]},{"type":"heading","depth":1,"payload":{"lines":[28,29]},"content":"发展","children":[{"type":"list_item","depth":2,"payload":{"lines":[30,31]},"content":"列宁对其丰富和发展"},{"type":"list_item","depth":2,"payload":{"lines":[31,32]},"content":"马克思主义中国化"}]},{"type":"heading","depth":1,"payload":{"lines":[33,34]},"content":"基本特征","children":[{"type":"list_item","depth":2,"payload":{"lines":[35,36]},"content":"科学性"},{"type":"list_item","depth":2,"payload":{"lines":[36,37]},"content":"人民性：本质属性"},{"type":"list_item","depth":2,"payload":{"lines":[37,38]},"content":"实践性：显著特征"},{"type":"list_item","depth":2,"payload":{"lines":[38,39]},"content":"发展性：科学性与革命性的统一"}]},{"type":"heading","depth":1,"payload":{"lines":[40,41]},"content":"⭐当代价值","children":[{"type":"list_item","depth":2,"payload":{"lines":[42,43]},"content":"观察当代世界变化的认识工具"},{"type":"list_item","depth":2,"payload":{"lines":[43,44]},"content":"指引当代中国发展的行动指南"},{"type":"list_item","depth":2,"payload":{"lines":[44,45]},"content":"引领人类社会进步的科学真理"}]}]},{})</script>
+</body>
+</html>
